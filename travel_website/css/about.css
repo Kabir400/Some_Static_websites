@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+.containor{
+    padding: 0 15%;
+}
+header{
+    background-color:#4a4a51;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.6rem;
+}
+ul.nav-items{
+    display: flex;
+
+}
+.nav-item{
+    padding: 1.5rem 1rem;
+    list-style: none;
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.nav:hover{
+    border-bottom: 1px solid white;
+}
+.logo{
+    font-size: 2.7rem;
+    padding: 1rem 0 0 0;
+}
+ h2.about::after{
+    content:"";
+    display: block;
+    border-top: 4px solid #f25a67;
+} 
+div.about h2{
+    padding-top:2rem;
+    font-size: 3rem;
+    color:rgb(102, 99, 99);;
+    
+}
+div.about{
+    
+    height: 100vh;
+}
+div.about p{
+    color:rgb(35, 34, 34);
+    font-size: 1.6rem;
+    word-spacing: 4px;
+    padding-top: 0.5rem;
+}
+ul.list{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-around;
+    color:rgb(35, 34, 34);
+    padding-top: 1rem;
+    list-style: none;
+}
+li.left::before{
+    content: '\2713';
+    color: #f25a67;
+    font-weight: bold;
+    padding-right: 1rem;
+
+}
+li.right::before{
+    content: '\2713';
+    color: #f25a67;
+    font-weight: bold;
+    padding-right: 1rem;
+
+}
+div.achivement h2{
+color:#f25a67;
+}
+div.achivement{
+    margin: 1rem 15% 3rem 15%;
+    display: flex;
+    justify-content: space-between;
+ }
+ div.achivement p{
+    font-weight: bold;
+    font-size: 1.6rem;
+ }
+ div.footer{
+    display: flex;
+background-color: #f25a67;
+justify-content: space-between;
+margin-right: 5px;
+ }
+div.footer p{
+    font-size: 2rem;
+    padding: 2rem 5rem;
+    color: white;
+}
+
+div.footer a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    margin: 1rem 1.5rem;
+padding: 0.6rem 3rem;
+    font-size: 2.5rem;
+}
+div.about{
+    margin-top:2vh;
+}
+footer{
+    background-color: #333333;
+    color:rgb(197, 191, 191);
+    height: 5.5rem;
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    width: 100%;
+  }
+  
+
